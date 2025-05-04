@@ -30,13 +30,6 @@ body {
   color: #fff;
   position: relative;
 
-  .page-number {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 20px;
-  }
-
   h1 {
     font-size: 3rem;
     line-height: 1.2;
@@ -45,6 +38,19 @@ body {
 
   p {
     font-size: 1.3rem;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 20px;
+  }
+
+  .page-number {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
   }
 }
 
